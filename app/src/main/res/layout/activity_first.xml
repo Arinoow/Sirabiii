@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".GameActivity"
+    android:gravity="center">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#74de74">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_score"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:background="#74de74"
+            android:textColor="#ffffff"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:id="@+id/img_1"
+            android:background="#60b450"
+            android:elevation="18dp"
+            android:focusableInTouchMode="false"
+            android:focusable="false"
+            android:cropToPadding="false"
+            android:layout_weight="0.9"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:weightSum="1"
+            android:layout_weight="1"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/txt_word"
+                android:textSize="50dp"
+                android:textColor="#021b55"
+                android:gravity="top|center_vertical|center_horizontal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="0dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:focusableInTouchMode="true"
+            android:layout_marginBottom="15dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="ا"
+                    android:id="@+id/btn_ا"
+                    android:layout_weight="1"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:elevation="10dp"
+                    android:gravity="center"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="ب"
+                    android:id="@+id/btn_پ"
+                    android:layout_weight="1"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:elevation="10dp"
+                    android:gravity="center"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="پ"
+                    android:id="@+id/btn_ب"
+                    android:layout_weight="1"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:elevation="10dp"
+                    android:gravity="center"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="ت"
+                    android:id="@+id/btn_ت"
+                    android:layout_weight="1"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:elevation="10dp"
+                    android:gravity="center"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="ث"
+                    android:id="@+id/btn_ث"
+                    android:layout_weight="1"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:elevation="10dp"
+                    android:gravity="center"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="ج"
+                    android:id="@+id/btn_ج"
+                    android:layout_weight="1"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:elevation="10dp"
+                    android:gravity="center"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="چ"
+                    android:id="@+id/btn_چ"
+                    android:layout_weight="1"
+                    android:elevation="10dp"
+                    android:gravity="center"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="ح"
+                    android:id="@+id/btn_ح"
+                    android:layout_weight="1"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:elevation="0dp"
+                    android:enabled="true"
+                    android:focusable="false"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="خ"
+                    android:id="@+id/btn_خ"
+                    android:layout_weight="1"
+                    android:elevation="10dp"
+                    android:gravity="center"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="د"
+                    android:id="@+id/btn_د"
+                    android:layout_weight="1"
+                    android:elevation="10dp"
+                    android:gravity="center"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="ذ"
+                    android:id="@+id/btn_ذ"
+                    android:layout_weight="1"
+                    android:elevation="10dp"
+                    android:gravity="center"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text=" ر"
+                    android:id="@+id/btn_ر"
+                    android:layout_weight="1"
+                    android:elevation="10dp"
+                    android:gravity="center"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="ز"
+                    android:id="@+id/btn_ز"
+                    android:layout_weight="1"
+                    android:elevation="10dp"
+                    android:gravity="center"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="ژ"
+                    android:id="@+id/btn_ژ"
+                    android:layout_weight="1"
+                    android:elevation="10dp"
+                    android:gravity="center"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="س"
+                    android:id="@+id/btn_س"
+                    android:layout_weight="1"
+                    android:elevation="10dp"
+                    android:gravity="center"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="ش"
+                    android:id="@+id/btn_ش"
+                    android:layout_weight="1"
+                    android:elevation="10dp"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="ص"
+                    android:id="@+id/btn_ص"
+                    android:layout_weight="1"
+                    android:elevation="10dp"
+                    android:gravity="center"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="ض"
+                    android:id="@+id/btn_ض"
+                    android:layout_weight="1"
+                    android:elevation="10dp"
+                    android:gravity="center"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="ط"
+                    android:id="@+id/btn_ط"
+                    android:layout_weight="1"
+                    android:elevation="10dp"
+                    android:gravity="center"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="ظ"
+                    android:id="@+id/btn_ظ"
+                    android:layout_weight="1"
+                    android:elevation="10dp"
+                    android:gravity="center"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="ع"
+                    android:id="@+id/btn_ع"
+                    android:layout_weight="1"
+                    android:elevation="10dp"
+                    android:gravity="center"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="غ"
+                    android:id="@+id/btn_غ"
+                    android:layout_weight="1"
+                    android:elevation="10dp"
+                    android:gravity="center"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="ف"
+                    android:id="@+id/btn_ف"
+                    android:layout_weight="1"
+                    android:elevation="10dp"
+                    android:gravity="center"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="ق"
+                    android:id="@+id/btn_ق"
+                    android:layout_weight="1"
+                    android:elevation="10dp"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="ک"
+                    android:id="@+id/btn_ک"
+                    android:layout_weight="1"
+                    android:elevation="10dp"
+                    android:gravity="center"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="گ"
+                    android:id="@+id/btn_گ"
+                    android:layout_weight="1"
+                    android:elevation="10dp"
+                    android:gravity="center"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="ل"
+                    android:id="@+id/btn_ل"
+                    android:layout_weight="1"
+                    android:elevation="10dp"
+                    android:gravity="center"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="م"
+                    android:id="@+id/btn_م"
+                    android:layout_weight="1"
+                    android:elevation="10dp"
+                    android:gravity="center"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="ن"
+                    android:id="@+id/btn_ن"
+                    android:layout_weight="1"
+                    android:elevation="10dp"
+                    android:gravity="center"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="و"
+                    android:id="@+id/btn_و"
+                    android:layout_weight="1"
+                    android:elevation="10dp"
+                    android:gravity="center"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="ه"
+                    android:id="@+id/btn_ه"
+                    android:layout_weight="1"
+                    android:elevation="10dp"
+                    android:gravity="center"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="ي"
+                    android:id="@+id/btn_ی"
+                    android:layout_weight="1"
+                    android:elevation="10dp"
+                    android:gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+
